@@ -37,7 +37,7 @@
                 app:layout_constraintTop_toTopOf="parent"
                 android:layout_marginTop="@dimen/data_textview_margin"
                 android:layout_marginStart="@dimen/data_textview_margin"
-                android:text="2019.09.19"
+                android:text="@string/date"
                 app:layout_constraintLeft_toRightOf="@+id/image">
             </TextView>
             <TextView
@@ -49,7 +49,7 @@
                 android:layout_marginEnd="@dimen/data_textview_margin"
                 android:layout_marginStart="@dimen/data_textview_margin"
                 android:layout_marginBottom="@dimen/data_textview_margin"
-                android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua ..."
+                android:text="@string/text_data"
                 app:layout_constraintTop_toTopOf="parent"
                 app:layout_constraintRight_toRightOf="parent"
                 app:layout_constraintLeft_toRightOf="@+id/image">
